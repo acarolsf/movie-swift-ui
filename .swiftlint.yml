@@ -1,0 +1,15 @@
+disabled_rules:
+
+- vertical_whitespace
+
+
+included:
+  - "*/*.swift"
+  - "*/**/*.swift"
+excluded:
+  - Pods
+  - "*.xcodeproj"
+  - ".git"
+
+  
+reporter: "xcode"
